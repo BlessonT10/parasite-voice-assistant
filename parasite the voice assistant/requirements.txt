@@ -1,0 +1,16 @@
+import pyttsx3
+import datetime
+import wikipedia
+import webbrowser
+import os
+import speech_recognition as sr
+import pywhatkit as kit
+import requests, json 
+from playsound import playsound
+from googletrans import Translator
+import time as t
+from gtts import gTTS
+import PIL.ImageGrab
+import pyautogui
+from cv2 import cv2
+import random
