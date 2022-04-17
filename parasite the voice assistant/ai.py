@@ -89,8 +89,6 @@ def greet():
     hour=datetime.datetime.now().hour
     if hour >= 6 and hour < 12:
         playsound('E:\\Desktop\\aisounds\\zapsplat_science_fiction_robot_power_up_initiate_ascend_60616.wav')
-    #elif hour >=12 and hour < 22:
-        #playsound('E:\\Desktop\\aisounds\\zapsplat_science_fiction_robot_power_up_initiate_ascend_60616.wav')
     speak("setting up everything")
     t.sleep(2)
     r=random.randint(1,100)
@@ -157,7 +155,6 @@ def takeCommand():
 
 def main():
     n=0
-    #greet()
     while True:
         call1=takeCommand1().lower()
         if 'parasite' in call1:
