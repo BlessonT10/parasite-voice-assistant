@@ -5,7 +5,7 @@ import webbrowser
 import os
 import speech_recognition as sr
 import pywhatkit as kit
-import requests, json 
+import requests 
 from playsound import playsound
 from googletrans import Translator
 import time as t
