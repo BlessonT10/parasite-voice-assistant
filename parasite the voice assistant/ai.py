@@ -1,5 +1,6 @@
 import pyttsx3
 import datetime
+import sys
 import wikipedia
 import webbrowser
 import os
@@ -104,7 +105,7 @@ def greet():
     else:
         speak("time for the sleep.")
         speak("good night!")
-        exit(0)
+        sys.exit(0)
     speak("welcome back")
     speak("you can call my name for any help sir")
     
@@ -235,7 +236,7 @@ def main():
                     print('okay sir')
                     speak('have a nice day')
                     print('have a nice day')
-                    exit(0)
+                    sys.exit(0)
                 elif 'song' in query:
                     f=open('E:\\Desktop\\aisounds\\song.txt','r')
                     speak(f.read())
